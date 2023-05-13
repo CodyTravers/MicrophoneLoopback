@@ -20,7 +20,7 @@
 #include <cstring>
 
 LoopbackStream::LoopbackStream() :
-    m_channelsCount(1),
+    m_channelsCount(2),
     m_sampleRate(48000),
     m_sizePerSample(2),
     m_streamFramePerBuffer(256),
